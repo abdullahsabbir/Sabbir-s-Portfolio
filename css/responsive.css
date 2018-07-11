@@ -1,0 +1,72 @@
+@media (max-width: 991px)
+{
+    #navbar ul
+    {
+        background: #fff;
+    }
+    
+    #navbar ul li a
+    {
+        color: #000!important;
+    }
+    
+    #navbar ul li:hover a
+    {
+        color: #008DD5!important;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .nav_scroll #navbar .navbar-nav
+    {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    #banner .banner_ah h1
+    {
+        font-size: 38px!important;
+    }
+    
+    #banner .banner_inner h2
+    {
+        font-size: 30px!important;
+    }
+}
+
+@media (max-width: 480px)
+{
+    #banner .banner_ah h1
+    {
+        font-size: 24px!important;
+    }
+    
+    #banner .banner_inner h2
+    {
+        font-size: 28px!important;
+    }
+}
+
+@media (max-width: 500px)
+{
+    #about .about_counter_col h3
+    {
+        font-size: 18px!important;
+    }
+    
+    #about .about_counter_col span
+    {
+        font-size: 16px!important;
+    }
+}
+
+@media (max-width: 425px)
+{
+    #about .about_counter_col .about_br
+    {
+        display: block!important;
+    }
+}
