@@ -228,13 +228,31 @@ body {
 }
 
 #about .about_counter_parent .about_counter_wrapper .about_counter_col h3 {
-  font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 5px;
 }
 
 #about .about_counter_parent .about_counter_wrapper .about_counter_col span {
-  font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#skills {
+  padding: 50px 0;
+  background: #f1f1f1;
+}
+
+#skills .section_heading h1 {
+  margin-bottom: 35px;
+}
+
+#skills .skills_bars h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#skills .skills_bars .percentCount {
+  font-family: "Lato", sans-serif;
 }

@@ -54,12 +54,12 @@
 {
     #about .about_counter_col h3
     {
-        font-size: 18px!important;
+        font-size: 16px!important;
     }
     
     #about .about_counter_col span
     {
-        font-size: 16px!important;
+        font-size: 18px!important;
     }
 }
 
