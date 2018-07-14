@@ -1,6 +1,6 @@
 $(function()
 {
-    'use strict'
+    'use strict';
 
     var $window = $(window);
 
@@ -19,7 +19,7 @@ $(function()
     $window.on('load', function()
     {
         //Insert Preloader Here
-        
+
         barhtml.LineProgressbar(
         {
             percentage: 0,
@@ -217,7 +217,7 @@ $(function()
     });
     
     //Smooth Scroll
-    var smoothScroll = new SmoothScroll('a[href*="#"]');
+    var smoothScroll = new SmoothScroll('a[href*="#"]', {header: '.custom_nav'});
     
 });
 
@@ -225,4 +225,4 @@ $(function()
 window.onbeforeunload = function () 
 {
     window.scrollTo(0,0);
-}
+};
