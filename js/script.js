@@ -218,6 +218,24 @@ $(function()
     
     //Smooth Scroll
     var smoothScroll = new SmoothScroll('a[href*="#"]', {header: '.custom_nav'});
+
+    //Isotope
+    var $filter = $('.works_filter_parent').isotope({
+        itemSelector: '.works_filter_img',
+        layoutMode: 'fitRows'
+    });
+
+    $('.works_filter_nav').on('click', 'li', function () {
+        var filterValue = $(this).attr('data-filter');
+        $filter.isotope({
+            filter: filterValue
+        });
+    });
+
+    $('.works_filter_nav li').on('click', function () {
+        $('.works_filter_nav li').removeClass('active');
+        $(this).addClass('active');
+    });
     
 });
 

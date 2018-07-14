@@ -96,7 +96,10 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px)
+@media (min-width: 438px) and (max-width: 533px)
 {
-    
+    .works_br
+    {
+        display: block!important;
+    }
 }
