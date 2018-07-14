@@ -18,7 +18,7 @@ $(function()
 
     $window.on('load', function()
     {
-        //Insert Preloader Here
+        $('.preloader_main').delay(1000).fadeOut(1000);
 
         barhtml.LineProgressbar(
         {
