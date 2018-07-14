@@ -583,3 +583,133 @@ $alt_back: #f1f1f1;
 }
 
 //Works End
+
+//Footer Start
+
+#footer
+{
+    padding: 50px 0;
+    background: #222;
+
+    .section_heading
+    {
+        h1
+        {
+            color: #fff;
+        }
+    }
+
+    .footer_col
+    {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .footer_col_contents
+        {
+            margin: 0 auto;
+            i
+            {
+                color: #fff;
+                font-size: 40px;
+                margin-bottom: 15px;
+            }
+            
+            h4
+            {
+                color: #fff;
+                text-transform: capitalize;
+                margin-bottom: 5px;
+            }
+            
+            p
+            {
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .footer_form
+    {
+        .form-control
+        {
+            &:focus
+            {
+                box-shadow: none;
+            }
+
+            margin-bottom: 15px;
+            background: transparent;
+            border: 1px solid #666;
+            color: #e1e1e1;
+        }
+
+        textarea
+        {
+            resize: none;
+        }
+
+        button
+        {
+            &:hover
+            {
+                background: #fff;
+            }
+            
+            background: #d1d1d1;
+            color: #222;
+        }
+    }
+}
+
+//Footer End
+
+//Footer 2 Start
+
+#footer2
+{
+    background: #000;
+    padding: 20px 0;
+
+    .footer2_social
+    {
+        margin-bottom: 15px;
+
+        a
+        {
+            &:hover
+            {
+                i
+                {
+                    color: $accent!important;
+                }
+            }
+
+            &:last-child
+            {
+                margin-right: 0;
+            }
+            
+            display: inline-block;
+            margin-right: 25px;
+            color: #fff;
+
+            i
+            {
+                color: #fff;
+                font-size: 14px;
+                transition: .3s;
+                -webkit-transition: .3s;
+            }
+            
+        }
+    }
+    p
+    {
+        color: #4f4f4f;
+        font-size: 12px;
+    }
+}
+
+//Footer 2 End

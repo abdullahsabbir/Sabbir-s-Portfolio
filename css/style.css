@@ -417,3 +417,101 @@ body {
   transition: .3s;
   -webkit-transition: .3s;
 }
+
+#footer {
+  padding: 50px 0;
+  background: #222;
+}
+
+#footer .section_heading h1 {
+  color: #fff;
+}
+
+#footer .footer_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#footer .footer_col .footer_col_contents {
+  margin: 0 auto;
+}
+
+#footer .footer_col .footer_col_contents i {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#footer .footer_col .footer_col_contents h4 {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+#footer .footer_col .footer_col_contents p {
+  color: #fff;
+  font-size: 16px;
+}
+
+#footer .footer_form .form-control {
+  margin-bottom: 15px;
+  background: transparent;
+  border: 1px solid #666;
+  color: #e1e1e1;
+}
+
+#footer .footer_form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#footer .footer_form textarea {
+  resize: none;
+}
+
+#footer .footer_form button {
+  background: #d1d1d1;
+  color: #222;
+}
+
+#footer .footer_form button:hover {
+  background: #fff;
+}
+
+#footer2 {
+  background: #000;
+  padding: 20px 0;
+}
+
+#footer2 .footer2_social {
+  margin-bottom: 15px;
+}
+
+#footer2 .footer2_social a {
+  display: inline-block;
+  margin-right: 25px;
+  color: #fff;
+}
+
+#footer2 .footer2_social a:hover i {
+  color: #008DD5 !important;
+}
+
+#footer2 .footer2_social a:last-child {
+  margin-right: 0;
+}
+
+#footer2 .footer2_social a i {
+  color: #fff;
+  font-size: 14px;
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+
+#footer2 p {
+  color: #4f4f4f;
+  font-size: 12px;
+}
