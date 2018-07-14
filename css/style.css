@@ -443,21 +443,21 @@ body {
   position: relative;
 }
 
-#works .works_filter_parent .works_filter_img:hover .works_filter_img_hover {
+#works .works_filter_parent .works_filter_img .works_filter_img_wrapper:hover .works_filter_img_hover {
   opacity: 1;
 }
 
-#works .works_filter_parent .works_filter_img:hover .works_filter_img_hover .works_filter_img_hover_contents h5 {
+#works .works_filter_parent .works_filter_img .works_filter_img_wrapper:hover .works_filter_img_hover .works_filter_img_hover_contents h5 {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-#works .works_filter_parent .works_filter_img:hover .works_filter_img_hover .works_filter_img_hover_contents p {
+#works .works_filter_parent .works_filter_img .works_filter_img_wrapper:hover .works_filter_img_hover .works_filter_img_hover_contents p {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-#works .works_filter_parent .works_filter_img:hover .works_filter_img_hover .works_filter_img_hover_contents a .work_filter_hover_zoom {
+#works .works_filter_parent .works_filter_img .works_filter_img_wrapper:hover .works_filter_img_hover .works_filter_img_hover_contents a .work_filter_hover_zoom {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }

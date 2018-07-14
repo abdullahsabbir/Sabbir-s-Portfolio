@@ -584,29 +584,32 @@ $alt_back: #f1f1f1;
             margin: 15px 0;
             position: relative;
 
-            &:hover
+            .works_filter_img_wrapper
             {
-                .works_filter_img_hover
+                &:hover
                 {
-                    opacity: 1;
-
-                    .works_filter_img_hover_contents
+                    .works_filter_img_hover
                     {
-                        h5
+                        opacity: 1;
+    
+                        .works_filter_img_hover_contents
                         {
-                            transform: translateY(0);
-                        }
-                        
-                        p
-                        {
-                            transform: translateY(0);
-                        }
-
-                        a
-                        {
-                            .work_filter_hover_zoom
+                            h5
                             {
                                 transform: translateY(0);
+                            }
+                            
+                            p
+                            {
+                                transform: translateY(0);
+                            }
+    
+                            a
+                            {
+                                .work_filter_hover_zoom
+                                {
+                                    transform: translateY(0);
+                                }
                             }
                         }
                     }
