@@ -515,8 +515,9 @@ body {
   background: #000;
   position: relative;
   transition: .3s;
+  display: inline-block;
   -webkit-transition: .3s;
-  margin: 10px auto 0 auto;
+  margin-top: 10px;
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
 }

@@ -220,9 +220,13 @@ $(function()
     var smoothScroll = new SmoothScroll('a[href*="#"]', {header: '.custom_nav'});
 
     //Isotope
-    var $filter = $('.works_filter_parent').isotope({
-        itemSelector: '.works_filter_img',
-        layoutMode: 'fitRows'
+    var $filter = $('.works_filter_parent').imagesLoaded(function()
+    {
+        $filter.isotope(
+        {
+            itemSelector: '.works_filter_img',
+            layoutMode: 'fitRows'
+        });
     });
 
     $('.works_filter_nav').on('click', 'li', function () {
@@ -236,7 +240,6 @@ $(function()
         $('.works_filter_nav li').removeClass('active');
         $(this).addClass('active');
     });
-    
 });
 
 //Always load page from Top
